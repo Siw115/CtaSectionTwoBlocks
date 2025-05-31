@@ -4,11 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"TT Commons Pro"', 'sans-serif'],
-        serif: ['"GT Alpina"', 'serif'],
-      },
-      fontWeight: {
-        450: '450',
+        sans: ['"TT Commons Pro"', 'Inter', 'sans-serif'],
+        serif: ['"GT Alpina"', 'Georgia', 'serif'],
       },
     },
   },
