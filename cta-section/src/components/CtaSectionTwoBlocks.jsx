@@ -10,7 +10,7 @@ const CTASectionTwoBlocks = () => {
                         Label
                     </p>
                     {/* Alles onder label krijgt spacing */}
-                    <div className="flex flex-col items-center text-center gap-[16px] md:gap-[24px]">
+                    <div className="flex flex-col items-center text-center gap-[16px] md:gap-[24px] tracking-[0.02em]">
                         {/* Title */}
                         <div className="max-w-[642px] max-h-[121px]">
                             {/* Desktop title */}
