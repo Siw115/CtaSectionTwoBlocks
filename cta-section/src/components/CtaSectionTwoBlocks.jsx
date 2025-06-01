@@ -5,45 +5,47 @@ const CTASectionTwoBlocks = () => {
         <section className="w-full bg-[#FFFCFA] px-[20px] md:px-[64px] pb-[64px] md:pb-[96px]">
             <div className="flex flex-col items-center">
                 {/* Headline */}
-                <div
-                    className="w-[335px] h-[225px] md:w-[864px] md:h-[217px] flex flex-col items-center text-center mx-[28px] mt-[48px] mb-[32px] md:mx-[64px] md:mx[64px] md:mb-[80px] md:mt-[64px]">
-                    <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450] mb-[8px]">
+                <div className="w-full md:w-[864px] md:h-[217px] flex flex-col items-center text-center mb-[32px] mt-[48px] mx-[20px] md:mb-[80px] md:mx-[64px] md:mt-[64px]">
+                    <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450]">
                         Label
                     </p>
-                    <div className="max-w-[642px] max-h-[121px] mb-[16px]">
-                        {/* Desktop title */}
-                        <h2 className="hidden md:block text-[#212121] font-sans font-[600] text-[40px] leading-[48px] tracking-[-0.03em] text-center">
-                            Mandatory title about the <br/>
-                            <span className="font-serif text-[42px] leading-[48px] tracking-[-0.03em] font-[300]">
-        call-to-action
-      </span>{' '}
-                            here
-                        </h2>
+                    {/* Alles onder label krijgt spacing */}
+                    <div className="flex flex-col items-center text-center gap-[16px] md:gap-[24px]">
+                        {/* Title */}
+                        <div className="max-w-[642px] max-h-[121px]">
+                            {/* Desktop title */}
+                            <h2 className="hidden md:block text-[#212121] font-sans font-[600] text-[40px] leading-[48px] tracking-[-0.03em] text-center">
+                                Mandatory title about the <br />
+                                <span className="font-serif text-[42px] leading-[48px] tracking-[-0.03em] font-[300]">call-to-action</span> here
+                            </h2>
 
-                        {/* Mobile title */}
-                        <h2 className="block md:hidden text-[#212121] text-[36px] leading-[40px] tracking-[-0.02em] font-[600] font-sans text-center">
-                            Mandatory title <br/>
-                            about the{' '}
-                            <span className="font-serif text-[38px] leading-[40px] tracking-[-0.03em] font-[300]">
-        call-to-<br/>
-        action
-      </span>{' '}
-                            <span className="font-sans text-[36px] tracking-[-0.02em]">here</span>
-                        </h2>
+                            {/* Mobile title */}
+                            <h2 className="block md:hidden text-[#212121] text-[36px] leading-[40px] tracking-[-0.02em] font-[600] font-sans text-center">
+                                Mandatory title <br />
+                                about the{' '}
+                                <span className="font-serif text-[38px] leading-[40px] tracking-[-0.03em] font-[300]">
+          call-to-<br />action
+        </span>{' '}
+                                <span className="font-sans text-[36px] tracking-[-0.02em]">here</span>
+                            </h2>
+                        </div>
+
+                        {/* Body text */}
+                        <p className="text-[#1E2526] text-[17px] md:text-[19px] leading-[24px] font-[450] opacity-80 max-w-xl">
+                            Optional body copy goes here.
+                        </p>
+
+                        {/* Button */}
+                        <button className="mt-2 inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
+                            Optional button
+                            <svg width="24" height="24" fill="none" stroke="#BF564D" strokeWidth="1.5" viewBox="0 0 24 24">
+                                <path d="M5 12h14M13 5l7 7-7 7" />
+                            </svg>
+                        </button>
+
                     </div>
-
-                    <p className="text-[#1E2526] text-[17px] md:text-[19px] leading-[24px] font-[450] opacity-80 max-w-xl mb-[16px]">
-                        Optional body copy goes here.
-                    </p>
-
-                    <button
-                        className="inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
-                        Optional button
-                        <svg width="24" height="24" fill="none" stroke="#BF564D" strokeWidth="1.5" viewBox="0 0 24 24">
-                            <path d="M5 12h14M13 5l7 7-7 7"/>
-                        </svg>
-                    </button>
                 </div>
+
 
                 {/* CTA Blocks */}
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] md:gap-[24px] justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
