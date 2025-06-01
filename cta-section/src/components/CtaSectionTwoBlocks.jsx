@@ -48,7 +48,7 @@ const CTASectionTwoBlocks = () => {
 
 
                 {/* CTA Blocks */}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] md:gap-[24px] justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] md:gap-[24px] justify-center mx-[20px] mb-[64px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
                     {[1, 2].map((_, i) => (
                         <div
                             key={i}
