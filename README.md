@@ -48,7 +48,11 @@ Deze component is ontwikkeld als onderdeel van de **Leapforce Design System Case
 ---
 
 ## 🧱 Bestandstructuur
-<pre> 📁 <strong>components/</strong> └── 📄 <strong>CTASectionTwoBlocks.jsx</strong> 📁 <strong>public/</strong> └── 📁 <strong>img/</strong> └── 🖼️ <strong>placeholder.png</strong> </pre>
+<pre> 📁 <strong>components/</strong>
+  └── 📄 <strong>CTASectionTwoBlocks.jsx</strong>
+  📁 <strong>public/</strong>
+  └── 📁 <strong>img/</strong>
+  └── 🖼️ <strong>placeholder.png</strong> </pre>
 
 ---
 
