@@ -57,7 +57,7 @@ const CTASectionTwoBlocks = () => {
                             <img
                                 src="/img/placeholder.png"
                                 alt="CTA visual"
-                                className="w-[335px] md:w-[644px] h-[252px] md:h-[515px]"
+                                className=" object-contain md:object-cover"
                             />
                             <div
                                 className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#141414] to-transparent opacity-80"/>
