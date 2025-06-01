@@ -10,7 +10,6 @@ const CTASectionTwoBlocks = () => {
                     <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450] mb-[8px]">
                         Label
                     </p>
-
                     <div className="max-w-[642px] max-h-[121px] mb-[16px]">
                         {/* Desktop title */}
                         <h2 className="hidden md:block text-[#212121] font-sans font-[600] text-[40px] leading-[48px] tracking-[-0.03em] text-center">
@@ -47,7 +46,7 @@ const CTASectionTwoBlocks = () => {
                 </div>
 
                 {/* CTA Blocks */}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] md:gap-[24px] justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
                     {[1, 2].map((_, i) => (
                         <div
                             key={i}
@@ -56,7 +55,7 @@ const CTASectionTwoBlocks = () => {
                             <img
                                 src="/img/placeholder.png"
                                 alt="CTA visual"
-                                className="w-[335px] h-[252px] object-cover"
+                                className="w-[335px] md:w-[644px] h-[252px] md:h-[515px] object-cover"
                             />
                             <div
                                 className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#141414] to-transparent opacity-80"/>
