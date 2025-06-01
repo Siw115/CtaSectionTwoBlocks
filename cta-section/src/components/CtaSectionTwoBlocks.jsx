@@ -47,16 +47,16 @@ const CTASectionTwoBlocks = () => {
                 </div>
 
                 {/* CTA Blocks */}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-[24px] w-full justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px]">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-[16px] justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px] w-[335px] md:w-[1312px] h-[520px] md:h-[515px]">
                     {[1, 2].map((_, i) => (
                         <div
                             key={i}
-                            className="relative w-[335px] md:w-[644px] h-[252px] md:h-[515px] rounded-[4px] overflow-hidden"
+                            className="relative rounded-[4px] overflow-hidden"
                         >
                             <img
                                 src="/img/placeholder.png"
                                 alt="CTA visual"
-                                className="w-full h-full object-cover"
+                                className="w-[335px] h-[252px] object-cover"
                             />
                             <div
                                 className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#141414] to-transparent opacity-80"/>
