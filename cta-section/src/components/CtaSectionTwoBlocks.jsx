@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASectionTwoBlocks = () => {
     return (
-        <section className="w-full bg-[#FFFCFA] px-[20px] md:px-[64px] pb-[64px] md:pb-[96px]">
+        <section className="w-full bg-[#FFFCFA]">
             <div className="flex flex-col items-center">
                 {/* Headline */}
                 <div className="w-full md:w-[864px] md:h-[217px] flex flex-col items-center text-center mb-[32px] mt-[48px] mx-[20px] md:mb-[80px] md:mx-[64px] md:mt-[64px]">
