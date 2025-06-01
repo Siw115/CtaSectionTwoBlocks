@@ -36,7 +36,7 @@ const CTASectionTwoBlocks = () => {
                         </p>
 
                         {/* Button */}
-                        <button className="mt-2 inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
+                        <button className="inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
                             Optional button
                             <svg width="24" height="24" fill="none" stroke="#BF564D" strokeWidth="1.5" viewBox="0 0 24 24">
                                 <path d="M5 12h14M13 5l7 7-7 7" />
