@@ -52,7 +52,7 @@ Deze component is ontwikkeld als onderdeel van de **Leapforce Design System Case
   └── 📄 <strong>CTASectionTwoBlocks.jsx</strong>
   📁 <strong>public/</strong>
   └── 📁 <strong>img/</strong>
-     └── 🖼️ <strong>placeholder.png</strong> </pre>
+       └── 🖼️ <strong>placeholder.png</strong> </pre>
 
 ---
 
