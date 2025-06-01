@@ -48,12 +48,7 @@ Deze component is ontwikkeld als onderdeel van de **Leapforce Design System Case
 ---
 
 ## 🧱 Bestandstructuur
-components/
-├── CTASectionTwoBlocks.jsx
-
-public/
-├── img/
-│ └── placeholder.png
+<pre> 📁 <strong>components/</strong> └── 📄 <strong>CTASectionTwoBlocks.jsx</strong> 📁 <strong>public/</strong> └── 📁 <strong>img/</strong> └── 🖼️ <strong>placeholder.png</strong> </pre>
 
 ---
 
@@ -72,15 +67,6 @@ public/
 - [x] DevTools: spacing gecontroleerd via het box-model tabblad.
 - [x] Meerdere schermresoluties getest (mobile-first).
 - [x] Lettergrootte en line-height gecontroleerd op basis van Figma.
-
----
-
-## 🧩 Verbeterpunten
-
-- [ ] Dynamische props toevoegen voor titels, teksten en afbeeldingen.
-- [ ] Hover-states uitbreiden indien voorzien in design system.
-- [ ] Dark mode ondersteuning.
-- [ ] Unit tests of visuele snapshots via Storybook.
 
 ---
 
