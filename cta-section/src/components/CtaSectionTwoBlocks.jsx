@@ -2,36 +2,43 @@ import React from 'react';
 
 const CTASectionTwoBlocks = () => {
     return (
-        <section className="w-full bg-[#FFFCFA] px-[64px] pt-[64px] pb-[96px]">
+        <section className="w-full bg-[#FFFCFA] px-[20px] md:px-[64px] pb-[64px] md:pb-[96px]">
             <div className="flex flex-col items-center">
                 {/* Headline */}
-                <div className="max-w-[1312px] mx-auto flex flex-col items-center text-center gap-[24px]">
-                    <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450]">
+                <div
+                    className="w-[335px] h-[225px] md:w-[864px] md:h-[217px] flex flex-col items-center text-center mx-[28px] mt-[48px] mb-[32px] md:mx-[64px] md:mx[64px] md:mb-[80px] md:mt-[64px]">
+                    <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450] mb-[8px]">
                         Label
                     </p>
-                    <div className="max-w-[642px] max-h-[121px]">
+
+                    <div className="max-w-[642px] max-h-[121px] mb-[16px]">
                         {/* Desktop title */}
                         <h2 className="hidden md:block text-[#212121] font-sans font-[600] text-[40px] leading-[48px] tracking-[-0.03em] text-center">
-                            Mandatory title about the <br/> <span
-                            className="font-serif text-[42px] leading-[48px] tracking-[-0.03em] font-[300]">call-to-action</span> here
+                            Mandatory title about the <br/>
+                            <span className="font-serif text-[42px] leading-[48px] tracking-[-0.03em] font-[300]">
+        call-to-action
+      </span>{' '}
+                            here
                         </h2>
+
                         {/* Mobile title */}
                         <h2 className="block md:hidden text-[#212121] text-[36px] leading-[40px] tracking-[-0.02em] font-[600] font-sans text-center">
                             Mandatory title <br/>
-                            about the {' '}
+                            about the{' '}
                             <span className="font-serif text-[38px] leading-[40px] tracking-[-0.03em] font-[300]">
-                                call-to-<br/>action
-                            </span>{' '}
+        call-to-<br/>
+        action
+      </span>{' '}
                             <span className="font-sans text-[36px] tracking-[-0.02em]">here</span>
                         </h2>
                     </div>
 
-                    <p className="text-[#1E2526] text-[17px] md:text-[19px] leading-[24px] font-[450] opacity-80 max-w-xl">
+                    <p className="text-[#1E2526] text-[17px] md:text-[19px] leading-[24px] font-[450] opacity-80 max-w-xl mb-[16px]">
                         Optional body copy goes here.
                     </p>
 
                     <button
-                        className="mt-2 mb-[32px] md:mb-[48px] inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
+                        className="inline-flex items-center gap-2 text-[#BF564D] text-[17px] md:text-[19px] font-[450] hover:underline">
                         Optional button
                         <svg width="24" height="24" fill="none" stroke="#BF564D" strokeWidth="1.5" viewBox="0 0 24 24">
                             <path d="M5 12h14M13 5l7 7-7 7"/>
@@ -40,7 +47,7 @@ const CTASectionTwoBlocks = () => {
                 </div>
 
                 {/* CTA Blocks */}
-                <div className="flex flex-col md:flex-row items-center md:items-start gap-[24px] w-full justify-center">
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-[24px] w-full justify-center mx-[20px] mb-[32px] md:mx-[64px] md:mb-[96px]">
                     {[1, 2].map((_, i) => (
                         <div
                             key={i}
