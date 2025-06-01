@@ -5,16 +5,16 @@ const CTASectionTwoBlocks = () => {
         <section className="w-full bg-[#FFFCFA] px-[64px] pt-[64px] pb-[96px]">
             <div className="flex flex-col items-center gap-[80px]">
                 {/* Headline */}
-                <div className="max-w-[864px] flex flex-col items-center text-center gap-[24px]">
+                <div className="flex flex-col items-center text-center gap-[24px]">
                     <p className="text-[#39494D] text-[14px] md:text-[15px] leading-[16px] tracking-[0.28px] md:tracking-[0.3px] font-[450]">
                         Label
                     </p>
-                    <div className="max-w-[642px]">
+                    <div className="max-w-[642px] max-h-[121px]">
                         {/* Desktop title */}
                         <h2 className="hidden md:block text-[#212121] font-sans font-[600]
              text-[40px] leading-[48px] tracking-[-0.03em]
-             text-center w-[642px] h-[98px]">
-                            Mandatory title about the{' '}
+             text-center w-[642px] h-[97px]">
+                            Mandatory title about the <br /> {' '}
                             <span className="font-serif text-[42px] leading-[48px] tracking-[-0.03em] font-[300]">
                                 call-to-action
                             </span>{' '}
@@ -22,10 +22,10 @@ const CTASectionTwoBlocks = () => {
                         </h2>
                         {/* Mobile title */}
                         <h2 className="block md:hidden text-[#212121] text-[36px] leading-[40px] tracking-[-0.02em] font-[600] font-sans text-center">
-                            Mandatory title <br />
-                            about the <br />
-                            <span className="font-serif text-[38px] leading-[40px] tracking-[-0.03em] font-[300] italic">
-                                call-to-action
+                            Mandatory title <br/>
+                            about the {' '}
+                            <span className="font-serif text-[38px] leading-[40px] tracking-[-0.03em] font-[300]">
+                                call-to<br/>-action
                             </span>{' '}
                             <span className="font-sans text-[36px] tracking-[-0.02em]">here</span>
                         </h2>
